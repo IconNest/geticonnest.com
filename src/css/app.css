@@ -23,6 +23,23 @@ header {
 				margin: 0;
         font-family: 'Avenir Next', sans-serif;
         font-weight: 500;
+
+        & a {
+        	text-decoration: none;
+        	display: flex;
+        	align-items: center;
+        	height: 48px;
+        	color: #fff;
+
+        	& span {
+        		margin-right: 10px;
+        	}
+
+        	& svg {
+        		height: 48px;
+        		width: 48px;
+        	}
+        }
 			}
 		}
 
