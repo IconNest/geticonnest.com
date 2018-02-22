@@ -57,11 +57,9 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       filename: 'index.html',
-      title: 'Project Demo',
+      title: 'Icon Nest',
       template: './src/index.html'
     }),
-    /*new HtmlWebpackPlugin({ filename: 'projects/index.html', template: './src/projects.html' }),*/
-    
     
     new ExtractTextPlugin({
       filename: 'app.css',
